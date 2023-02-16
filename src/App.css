@@ -1,0 +1,56 @@
+.colors {
+  color: #443b40;
+  color: #9b8480;
+  color: #bdd5df;
+  color: #788e8e;
+  color: #32473c;
+
+  color: #f9f8f8;
+
+  /* 
+  "Seasalt":"f9f8f8",
+  "French gray":"acbcc3",
+  "Wenge":"584b4b" */
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: #000f14;
+}
+
+.custom-shape-divider-top-1676516472 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1676516472 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 300px;
+}
+
+.custom-shape-divider-top-1676516472 .shape-fill {
+  fill: #689689;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1676516472 svg {
+    width: calc(100% + 1.3px);
+    height: 50px;
+  }
+}
